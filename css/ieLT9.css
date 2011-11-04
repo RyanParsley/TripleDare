@@ -1,0 +1,113 @@
+nav{
+  position:relative;
+  width:100%;
+}
+nav li{ 
+  display:inline;
+}
+footer{
+  clear:left;
+  text-align:center;
+  color:#fff;
+  background:url(../img/KNBorder2.png) no-repeat top center;
+  padding-top:96px;
+}
+#obstacles ul{
+  list-style:none;
+  width:490px;
+  padding:0;
+  margin:0;
+  float:left;
+}
+.imageHolder{
+  width:44%;
+  float:left;
+  text-align:center;
+  margin:0;
+}
+.disclaimer.primary, .address.ca{
+  width:29%;
+  padding-left:20%;
+  float:left;
+  text-align:right;
+  margin-right:2%;
+}
+.disclaimer.secondary, .address.fl{
+  width:29%;
+  padding-right:20%;
+  float:left;
+  text-align:left;
+}
+form{
+  width:50%;
+  float:left;
+}
+.timer{
+  float:left;
+  width:40%;
+  margin-left:24px;
+}
+.timer figcaption{
+  width:70%;
+  margin:0 auto;
+}
+body header{
+  text-align:center;
+  padding-bottom:40px;
+}
+body * header{
+  padding-bottom:0;
+  text-align:left;
+}
+body header h1{
+  font-size:52px;
+  color:#fe6537;
+  text-shadow:3px 3px 0px #fff;
+}
+.container header h1{
+  background:#80c1d6;
+  display:inline;
+  margin:0;
+  font-size:40px;
+  line-height:40px;
+  padding-right:24px;
+  color:#fff;
+}
+body header h2{
+  font-family: OpenSansSemibold, verdana, sans-serif;
+  font-size:22px;
+  color:#fff;
+}
+body * header h2{
+  font-family: OpenSansSemibold, verdana, sans-serif;
+  font-size:22px;
+  color:#fff;
+}
+header, nav, footer, section, figcaption{
+  display:block;
+}
+ol, ul, li, figure{
+  margin:0;
+  padding:0;
+}
+html, body{
+  background:#80c1d6 url(../img/texture_blue.png) fixed;
+}
+nav{
+  background:#67b1ca;
+}
+#obstacles{
+  background:#fe6638;
+}
+#obstacles li a{
+  background:#80b238;
+}
+#obstacles li a:hover, #obstacles li a.active{
+  background:#eef13f;
+}
+#prizes{
+  background:#80b238;
+}
+#prizes header h1{
+  background:#80b238 ;
+}
